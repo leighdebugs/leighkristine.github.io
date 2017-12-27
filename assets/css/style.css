@@ -1,0 +1,146 @@
+body {
+  background-color: #08938F;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+ }
+
+#left {
+  height: 10em;
+  position: relative;
+  float: left;
+}
+
+#right {
+  height: 10em;
+  position: relative;
+  float: left;
+  text-align: right;
+}
+
+#main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#populate, #sidebar {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#sidebar {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-right: 0;
+  margin-left: 0;
+}
+/* unvisited link */
+a:link {
+    color: #ffffff;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
+
+#name {
+  font-family: 'Fjalla One', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+
+/* contact page */
+#contact-form ul {
+  margin-bottom: 20px;
+}
+#contact-form li {
+  margin-bottom: 10px;
+}
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+textarea {
+  height: 200px;
+}
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+    .auth-image {float: none;}
+    .sidebar {position: relative;}
+    .container {width: 75%;}
+   	.main-section {width: 50%;}
+ }
+
+ @media screen and (max-width: 768px) {
+    .auth-image {float: left;}
+   	#masthead, #logo, nav {position: static;}
+   	.container {width: auto; padding: 0 20px 20px 20px; position: static;}
+   	.main-section {width: 100%;}
+   	footer {width: 100%;}
+  	.sidebar {float: left; max-width: none;}
+   	#main-container {padding-top: 20px;}
+	.social:last-child {margin-right: 20px;}
+   }
+
+ @media screen and (max-width: 640px) {
+ 	.auth-image {float: none;}
+ 	#masthead, #logo, nav {margin: 0; width: 100%;}
+ 	.container {padding: 0;}
+ 	nav a {position: relative; left: 135px; width: auto; clear: both; margin: auto; margin-top: 15px; padding: 0 25px 0 25px;}
+	#main-container {padding: 15px;}
+	nav {height: 50px;}
+
+	
+
+
+ }
+
+
+
